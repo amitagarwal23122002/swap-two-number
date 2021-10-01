@@ -1,11 +1,19 @@
+/* Pre-processor */
 #include<iostream>
 
-using namespaces std;
+using namespace std;
 
+/* Default Main Function */
 int main() {
-  int x, y;
+  int x, y; /* Variables */
+  cout << "Enter two numbers to swap : ";
+  cin >> x >> y; /* User Input */
+
+  /* Calculation */
   x = x + y;
   y = x - y;
   x = x - y;
-  cout << "number swapped" << endl;
+
+  /* Output */
+  cout << "Numbers are swapped : " << x << ", " << y << endl;
 }
